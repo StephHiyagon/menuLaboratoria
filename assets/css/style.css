@@ -3,7 +3,6 @@
 body, html {
   margin:0;
   padding:0;
-  height: 2500px;
   font-family: "Raleway", "san-serif";
 }
 
@@ -183,10 +182,8 @@ a span.spanM:hover {
   background-color: white;
 }
 
-/*h2 {
-  color: rgba(252, 193, 17, 1);
-  z-index: 1000;
-  position: relative;
-  top:100px;
+#pie {
+  width: 100%;
+  background-color: rgb(51, 51, 51);
   text-align: center;
-}*/
+}
