@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+section#fotos{
+  color: rgba(252, 193, 17, 1);
+  z-index: 1000;
+  position: absolute;
+  top:100px;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+  width:1349px;
+}
+
+div.titulo {
+  text-align: center;
+  display:inline-block;
+  width: 1349px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 400px;
+  display:inline-block;
+}
+
+figure {
+  margin:0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+span.nombre {
+  display: block;
+  margin: 0;
+  margin-top: -50%;
+  width: 400px;
+  text-align: center;
+  font-size: 24px;
+  color:rgba(252, 193, 17, 1);
+  font-size: 40px;
+	opacity: 0;
+	color:white;
+  -webkit-text-fill-color:white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgba(252, 193, 17, 1);
+  position:absolute;
+	z-index: 1000;
+	transition: 0.4s;
+}
+
+figure:hover span.nombre {
+  opacity:1;
+  transition: 0.4s;
+}
+
+img.image {
+  display:inline-block;
+  text-align: center;
+  width:400px;
+  height:400px;
+  cursor:pointer;
+  padding: 0;
+  margin: 0;
+  position: relative;
+	transition: 0.4s;
+
+}
+
+img.image:hover {
+  opacity:0.5;
+  -webkit-transform:scale(1.1);   /* Efecto de zoom */
+  -moz-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  transition: background-color ease 4s;
+}
+
+div.coder {
+  display:inline-block;
+  text-align: center;
+  width:400px;
+  height:400px;
+  cursor:pointer;
+  padding: 0;
+  margin: 0;
+  position: relative;
+	transition: 0.4s;
+  background-color: rgba(252, 193, 17, 1);
+  overflow: hidden;
+}
+
+div.coder:hover {
+  z-index: 1000;
+  transition: background-color ease 4s;
+}
+
+div, ul, figure {
+  display: inline-block;
+}
