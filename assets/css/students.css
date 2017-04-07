@@ -9,7 +9,7 @@ section#fotos{
   font-family: "Raleway",sans-serif;
   width:1349px;
   min-height: 100%;
-  overflow: auto;
+
 }
 
 div.titulo {
@@ -20,7 +20,7 @@ div.titulo {
 
 li {
   list-style: none;
-  margin: 0;
+  margin: -4px;
   padding: 0;
   width: 400px;
   height: 400px;
@@ -40,6 +40,7 @@ span.nombre {
   margin: 0;
   /*margin-top: -50%;*/
   width: 400px;
+  height: 100px;
   text-align: center;
   margin-left: -50%;
   margin-top: 50%;
@@ -65,7 +66,7 @@ img.image {
   display:inline-block;
   text-align: center;
   width:400px;
-  height:400px;
+  height:402px;
   cursor:pointer;
   padding: 0;
   margin: 0;
@@ -107,7 +108,7 @@ div#contenedor, ul, figure {
 }
 
 div#contenedor, ul#lista {
-  line-height: 0;
+  /*line-height: 0;*/
   min-height: 100%;
   position: relative;
 }
