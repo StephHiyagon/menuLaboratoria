@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body, html {
   margin:0;
@@ -181,6 +181,42 @@ a span.spanM:hover {
   color: rgba(252, 193, 17, 0.7);
   background-color: white;
 }
+
+div#maquina {
+  height: 100px;
+  padding-top: 50px;
+  background-color: rgba(252, 193, 17, 1);
+}
+div.write {
+  background-color: rgba(252, 193, 17, 1);
+  color: rgb(51,51,51);
+  font-family: monospace;
+  height: 100px;
+  margin: auto;
+	display: table;
+}
+
+h2#msj {
+  font-family: monospace;
+  font-size: 2rem;
+  position: relative;
+  float: left;
+}
+
+h2#msj span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgba(252, 193, 17, 1);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(50) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 
 #pie {
   width: 100%;
